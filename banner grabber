@@ -1,0 +1,24 @@
+package main
+
+import (
+   "net"
+   "fmt"
+   "strconv"
+)
+
+func main() {
+
+   for i := 20; i < 25; i++ {
+      port := strconv.FormatInt(int64(i), 10)
+      conn, err := net.Dial("tcp", "target1.bowneconsulting.com:" + port)
+      fmt.Println("Scanning Port",i)
+      if err == nil {
+         fmt.Println("Port",i, "open")
+       	 Buffer := make([]byte, 1024)
+		 numBytesRead, err := conn.Read(Buffer)
+		 if err == nil {
+            fmt.Printf("Banner: %s\n", Buffer[0:numBytesRead])
+		 }
+         conn.Close()
+      }
+   }

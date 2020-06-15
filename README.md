@@ -8,7 +8,7 @@ sudo apt update
 sudo apt install curl -y
 
 curl -O https://dl.google.com/go/go1.13.3.linux-amd64.tar.gz
-sha256sum go1.13.3.linux-amd64.tar.gz
+To check integrity of the file run: sha256sum go1.13.3.linux-amd64.tar.gz
 
 tar xvf go1.13.3.linux-amd64.tar.gz
 

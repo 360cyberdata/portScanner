@@ -1,10 +1,10 @@
 # portScanner
 Build you your own tools
 
-Installing Go Goland 
-On your Linux server, in a Terminal window, execute these commands:
+Installing Go Goland using any cloud Platform. We highly recommend Cloud GCP Platform.
 
 sudo apt update
+
 sudo apt install curl -y
 
 curl -O https://dl.google.com/go/go1.13.3.linux-amd64.tar.gz

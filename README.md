@@ -1,7 +1,7 @@
 # portScanner
 Build you your own tools
 
-Installing Go
+Installing Go Goland 
 On your Linux server, in a Terminal window, execute these commands:
 
 sudo apt update

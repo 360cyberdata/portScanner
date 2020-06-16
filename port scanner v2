@@ -1,6 +1,6 @@
-//scanning more ports
-//mkdir -p work/src/my_project/portscan3
-//nano ~/work/src/my_project/portscan3/portscan3.g
+//banner grabber
+//mkdir -p work/src/my_project/portscan2
+//nano ~/work/src/my_project/portscan2/portscan2.go
 
 package main
 

@@ -1,7 +1,6 @@
-//scanning more ports
-//mkdir -p work/src/my_project/portscan3
-//nano ~/work/src/my_project/portscan3/portscan3.go
-
+//mkdir -p work/src/my_project/portscan4
+//nano ~/work/src/my_project/portscan4/portscan4.go
+//using timeout 
 
 package main
 

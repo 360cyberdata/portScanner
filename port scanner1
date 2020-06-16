@@ -1,3 +1,8 @@
+Portscanner1
+mkdir -p work/src/my_project/portscan1
+nano ~/work/src/my_project/portscan1/portscan1.go
+
+
 package main
 
 import (
